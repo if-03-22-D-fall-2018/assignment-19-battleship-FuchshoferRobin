@@ -71,7 +71,7 @@ bool shoot(int row, int col)
   }
   if(op[row][col] == Boat)
   {
-      
+
     CheckBorder(row-1, col-1);
     CheckBorder(row-1, col);
     CheckBorder(row-1, col+1);
